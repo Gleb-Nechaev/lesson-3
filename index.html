@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style.css'>
+  <title>Знакомство с HTML и CSS</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="container row row-header">
+        <div class="header-nav">
+          <a class="logo_a" href="https://htmlacademy.ru/study">
+            <img class="logo"
+              src="https://assets.htmlacademy.ru/img/logo.svg?cs=792f8e26f9c3c0df3dd2d4495590de35bd29241e" alt="">
+          </a>
+          <nav>
+            <ul class="nav">
+              <li>
+                <a href="https://htmlacademy.ru/courses">Практикум</a>
+                <ul class="nav__list">
+                  <li><a href="https://htmlacademy.ru/courses">Тренажёры</a></li>
+                  <li><a href="https://l.htmlacademy.ru/professional-skills">Профессиональные навыки</a></li>
+                  <li><a href="https://l.htmlacademy.ru/projects-and-templates">Проекты для практики</a>
+                  </li>
+                </ul>
+              </li>
+              <li><span>Профессии</span>
+                <ul class="nav__list">
+                  <li><a href="https://htmlacademy.ru/profession/frontender">Фронтенд-разработчик</a></li>
+                  <li><a href="https://htmlacademy.ru/profession/react">React-разработчик</a></li>
+                  <li><a href="https://htmlacademy.ru/profession/fullstack">Фулстек-разработчик</a></li>
+                  <li><a href="https://htmlacademy.ru/profession/backender">Бэкенд-разработчик</a></li>
+                </ul>
+              </li>
+              <li><a href="https://htmlacademy.ru/intensive/htmlcss">Курсы</a>
+                <ul class="nav__list">
+                  <li><a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>
+                  </li>
+                  <li><a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и
+                      автоматизация</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/javascript">JavaScript. Профессиональная разработка
+                      веб-интерфейсов</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/ecmascript">JavaScript. Архитектура клиентских
+                      приложений</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/react">React. Разработка сложных клиентских
+                      приложений</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/php">PHP. Профессиональная веб-разработка</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/php2">PHP и Yii. Архитектура сложных веб-сервисов</a>
+                  </li>
+                  <li><a href="https://htmlacademy.ru/intensive/nodejs">Node.js. Разработка серверов приложений и
+                      API</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/animation">Анимация для фронтендеров</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/email">Вёрстка email-рассылок</a></li>
+                  <li><a href="https://htmlacademy.ru/intensive/vue">Vue.js для опытных разработчиков</a></li>
+                </ul>
+              </li>
+              <li><a href="https://htmlacademy.ru/study">Моё обучение</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="profile">
+          <img class="profile__photo"
+            src="https://assets.htmlacademy.ru/img/unknown-raccoon.svg?cs=190c24a11a63eea804d94cfdefce4a767dccd66f"
+            alt="">
+          <span class="profile__text">Мой профиль</span>
+          <ul class="profile__list">
+            <li>Настройки</li>
+            <li>Выход</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <div class="container">
+          <div class="nav_aside">
+            <a href="#">Главная</a>
+            <pre>  /  </pre>
+            <a href="#">Тренажёры</a>
+            <pre>  /  </pre>
+          </div>
+          <h2><a href="index.html">Знакомство с HTML и CSS</a></h2>
+          <ol>
+            <li>
+              <span>Структура HTML-документа</span>
+              <ul>
+                <li class="teor">
+                  <p>Теория</p>
+                  <span>17/17</span>
+                </li>
+                <li class="prak">
+                  <a href="#">Практика</a>
+                  <span>4/4</span>
+                </li>
+              </ul>
+            </li>
+            <li class="proideno">
+              <a href="marking_text.html">Разметка текста</a>
+              <span>20/20</span>
+            </li>
+            <li class="proideno">
+              <a href="#">Сылки и изображения</a>
+              <span>16/16</span>
+            </li>
+            <li class="proideno">
+              <a href="#">Основы CSS</a>
+              <span>2/16</span>
+            </li>
+            <li class="proideno pr2">
+              <a href="#">Оформление текста</a>
+              <span>0/19</span>
+            </li>
+          </ol>
+        </div>
+        <!-- <img src="https://assets.htmlacademy.ru/img/achievements/courses/basic-html-css/299.svg?cs=9b407c86efadcc1155ec03a17311fa2d3df14f5a" width="100" height="100" alt=""> -->
+      </aside>
+      <section>
+        <h1>
+          <span class="title__span">Часть 1:</span><br>
+          Структура HTML-документа
+        </h1>
+        <div class="sub__title">
+          <span class="span__theme">Теория</span>
+          <span class="span__theme-task">16 заданий, 1 испытание и 1 конспект</span>
+          <p class="p__opisanie">Начинаем готовить разметку страницы блога, разбираемся из каких тегов она состоит и за что эти теги отвечают.</p>
+          <a href="#" class="button button_green">Пройти ещё раз</a>
+        </div>
+
+
+
+
+          
+
+        <div class="tasks">
+          <div class="task task1"><a class="task__link"
+              href="/courses/299/run/1"><img class="task__icon" src="pointer.svg" alt="" width="30px">
+              <span class="task__text">1. Doctype в HTML, объявление типа документа</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/2"><img class="task__icon" src="pointer.svg" alt="" width="30px">
+              <span class="task__text">2. Основные теги HTML</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px">
+              <span class="task__text">3. Тег head, служебная информация о странице</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">4. Тег title, заголовок страницы</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">5. Тег main, основное содержание</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">6. Теги header footer, шапка и подвал</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">7. Тег section, смысловой раздел</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">8. Тег nav, основная навигация</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">9. Тег article, независимый раздел</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">10. Тег aside, доплнительное содержание</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">11. Тег h1-h6, заголоки в HTML</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">12. Тег p, параграф</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">13. Завершаем проектирование страниц</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">14. Тег meta, кодировка страницы</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">15. Тег meta, ключевые слова</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">16. Подключаем к странице другой каркас</span><span class="task__text2">Задание</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">17. Конспект «структура HTML-документа»</span><span class="task__text2">Конспект</span></a>
+          </div>
+          <div class="task"><a class="task__link"
+              href="/courses/299/run/3"><img class="task__icon" src="pointer.svg" alt="" width="30px"><span class="task__text">18. Первое испытание</span><span class="task__text2">Испытание</span></a>
+          </div>
+        </div>
+
+
+
+
+
+
+      </section>
+    </main>
+    <footer>
+      <div class="container row main2">
+        <div class="footer__logo">
+          <a class="logo_b" href="https://htmlacademy.ru/study">
+            <img class="logo_2"
+              src="https://assets.htmlacademy.ru/img/logo.svg?cs=792f8e26f9c3c0df3dd2d4495590de35bd29241e" alt="">
+          </a>
+        </div>
+        <div class="footer__column">
+          <h3>Практикум</h3>
+          <ul class="footer__list">
+            <li><a href="https://htmlacademy.ru/courses">Тренажёры</a></li>
+            <li><a href="https://htmlacademy.ru/pricing">Подписка</a></li>
+            <li><a href="https://l.htmlacademy.ru/corporate">Для команд и компаний</a></li>
+            <li><a href="https://htmlacademy.ru/tutorial/php">Учебник по PHP</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Профессии</h3>
+          <ul class="footer__list">
+            <li><a href="https://htmlacademy.ru/profession/frontender">Фронтенд-разработчик</a></li>
+            <li><a href="https://htmlacademy.ru/profession/react">React-разработчик</a></li>
+            <li><a href="https://htmlacademy.ru/profession/backender">Бэкенд-разработчик</a></li>
+            <li><a href="https://htmlacademy.ru/profession/fullstack">Фулстек-разработчик</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Услуги</h3>
+          <ul class="footer__list">
+            <li><a href="https://htmlacademy.ru/tutors">Работа наставником</a></li>
+            <li><a href="https://htmlacademy.ru/for_schools">Для учителей</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

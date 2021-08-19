@@ -4,18 +4,22 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	font-size: 10px;
+}
 
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.6rem;
 }
 ul {
 	margin: 0;
 	padding: 0;
 }
 h1 {
-	font-size: 42px;
+	font-size: 4.2rem;
 	color: #333333;
 	line-height: 44px;
 	margin: 0;
@@ -69,13 +73,15 @@ main {
 }
 aside {
 	padding: 0px;
+	padding-bottom: 20px;
 	background-color: #f8f8f8;
 	flex: 0 0 30%;
 	max-width: 400px;
 	position: relative;
 }
 section {
-	max-width: 960px;
+	flex: 1 0 330px;
+	/* max-width: 960px; */
 }
 
 aside::after {
@@ -94,7 +100,7 @@ aside ul li{
 	justify-content: space-between;
 }
 aside ul li span{
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #302683;
 }
 aside ol {
@@ -137,7 +143,7 @@ aside ul li.teor{
 }
 aside ul li.teor p{
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 aside ul li.prak{
 	margin-left: 5px;
@@ -152,11 +158,11 @@ aside a {
 	text-decoration: none;
 }
 .proideno > span {
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #4eb543;
 }
 aside ol > li > a {
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 .pr2 span{
 	color: #9696a2;
@@ -168,24 +174,24 @@ section {
 	flex: 1 1 100%;
 }
 .title__span {
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .span__theme {
 	color: #333333;
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 700;
 	margin-right: 10px;
 }
 .span__theme-task {
 	color: #757575;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .sub__title {
 	max-width: 600px;
 	padding-bottom: 40px;
 }
 .button {
-	font-size: 22px;
+	font-size: 2.2rem;
 	margin-top: 40px;
 	display: inline-block;
 	padding: 15px 20px;
@@ -238,11 +244,11 @@ section {
 }
 .task__text {
 	color: #302683;
-	font-size: 17px;
+	font-size: 1.7rem;
 }
 .task__text2 {
 	color: #757575;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 .task:hover {
 	background-color: #f8f8f8;
@@ -255,12 +261,12 @@ section {
 	display: flex;
 }
 .nav_aside pre{
-	font-size: 16px;
+	font-size: 1.6rem;
 	margin: 0;
 }
 .nav_aside a{
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 footer {
 	width: 100%;
@@ -273,11 +279,12 @@ footer {
 	padding: 0 25px;
 	display: flex;
   	justify-content: space-around;
+	flex-wrap: wrap;
 }
 footer a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .footer__list li {
 	list-style: none;
@@ -290,7 +297,7 @@ footer a {
 }
 .footer__column h3{
 	margin: 0px 0px 12px;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 nav li {
 	position: relative;
@@ -303,7 +310,7 @@ nav li span {
 	justify-content: center; /* по горизонтали */
 	height: 100%;
 	padding: 10px 20px 10px 15px;
-	font-size: 14px;
+	font-size: 1.4rem;
 	text-decoration: none;
 	color: #fff;
 	transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
@@ -360,8 +367,6 @@ nav li:hover .nav__list {
 	padding-left: 40px;
 	width: 385px;
 	padding-bottom: 15px;
-	position: absolute;
-	left: 40px;
 }
 nav {
 	flex: 1 1 auto;
@@ -420,7 +425,7 @@ nav ul.nav {
 	background-color: #4b4b64;
 	display: none;
 	line-height: 2;
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 .profesiya__list {
 	margin: 0;
@@ -460,7 +465,7 @@ nav ul.nav {
 	border: 3px solid #646479;
 }
 .profile__text {
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 .login {
@@ -471,7 +476,7 @@ nav ul.nav {
 	text-transform: uppercase;
 	color: #222;
 	letter-spacing: 1px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	line-height: 1.5;
 	border: none;
 	margin: 50px;
@@ -519,9 +524,22 @@ nav ul.nav {
 	nav ul.nav {
 		justify-content: center;
 	}
+	html {
+		font-size: 8px;
+	}
 }
 @media screen and (max-width: 1423px){
 	.footer__logo {
 		width: 290px;
+	}
+}
+@media screen and (max-width: 1180px){
+	main {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	aside {
+		flex: 1 1 100%;
+		max-width: 100%;
 	}
 }
